@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="deathcomp",
-    version="0.0.1",
+    version="0.0.2",
     author="runa yoshida",
     author_email="s2022067@stu.musashino-u.ac.jp",
     description="A package compares the number of deaths due to COVID-19 in two countries",
