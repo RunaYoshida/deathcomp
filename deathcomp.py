@@ -28,8 +28,4 @@ country = str(sys.argv[1])
 country2 = str(sys.argv[2])
 days = int(sys.argv[3])
 
-#country = 'Japan'
-#country2 = 'Taiwan'
-#days = 30
-
 main(country, country2, days)
