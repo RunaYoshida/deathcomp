@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: deathcomp
-Version: 0.0.2
+Version: 0.0.3
 Summary: A package compares the number of deaths due to COVID-19 in two countries
 Home-page: https://github.com/RunaYoshida/deathcomp
 Author: runa yoshida
