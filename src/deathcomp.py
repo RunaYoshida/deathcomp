@@ -4,7 +4,7 @@ import sys
 import subprocess as sp
 import matplotlib.pyplot as plt
 
-def main(country="Japan", country2="Taiwan", days=30):
+def main(country, country2, days):
   sp.call("wget https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/jhu/new_deaths.csv", shell=True)
   data = pd.read_csv("new_deaths.csv")
   sp.call("rm new_deaths.csv ", shell=True)
